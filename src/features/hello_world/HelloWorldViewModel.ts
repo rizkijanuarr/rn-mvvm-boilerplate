@@ -9,7 +9,7 @@ import { helloWorldRepository } from './HelloWorldRepository';
 import type { HelloWorldResponse } from './HelloWorldModel';
 import React from 'react';
 
-export const useHelloWorld = () => {
+export const HelloWorldViewModel = () => {
     const [helloWorldState, setHelloWorldState] = useState<UiState<HelloWorldResponse>>(
         UiState.idle(),
     );

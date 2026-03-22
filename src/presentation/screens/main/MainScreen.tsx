@@ -5,12 +5,12 @@ import {
   TouchableOpacity,
   ActivityIndicator,
 } from 'react-native';
-import { useHelloWorld } from '../../../features/hello_world/useHelloWorld';
+import { HelloWorldViewModel } from '../../../features/hello_world/HelloWorldViewModel';
 import { styles } from './MainStyle';
 import { Colors } from '../../theme';
 
 const MainScreen = () => {
-  const { helloWorldState, fetchHelloWorld } = useHelloWorld();
+  const { helloWorldState, fetchHelloWorld } = HelloWorldViewModel();
 
   return (
     <View style={styles.container}>
