@@ -27,7 +27,11 @@
     "react": "19.2.3",
     "react-native": "0.84.0",
     "react-native-bootsplash": "^7.1.0",
+    "react-native-fast-image": "^8.6.3",
     "react-native-image-picker": "^8.2.1",
+    "react-native-mmkv": "^4.3.0",
+    "react-native-nitro-modules": "^0.35.2",
+    "react-native-reanimated-skeleton": "^1.6.0",
     "react-native-safe-area-context": "^5.7.0",
     "react-native-screens": "^4.24.0",
     "zustand": "^5.0.12"

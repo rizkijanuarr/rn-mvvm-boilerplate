@@ -1,8 +1,7 @@
 import { useEffect } from 'react';
-import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
-import { NavigationContainer } from '@react-navigation/native';
 import BootSplash from 'react-native-bootsplash';
 import AppNavigator from './src/presentation/navigation/AppNavigator';
+import { SafeAreaProvider, SafeAreaView, NavigationContainer } from './src/core/plugins';
 
 function App() {
   useEffect(() => {
