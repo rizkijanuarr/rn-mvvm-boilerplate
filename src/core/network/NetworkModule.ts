@@ -1,11 +1,11 @@
-import { BASE_URL } from '..';
+import { BASE_URL } from '../common/Constant';
 import {
   requestInterceptor,
   handleNetworkError,
   responseInterceptor,
   setTokenGetter,
-  checkResponseJson,
-} from '.';
+} from './ResponseInterceptor';
+import { checkResponseJson } from './ResponseJsonChecker';
 
 
 const TIME_OUT = 60000;
@@ -107,4 +107,4 @@ class NetworkModule {
 }
 
 // Singleton instance
-export const networkModule = new NetworkModule(BASE_URL);
+export const networkModule = new NetworkModule(BASE_URL || 'https://api.example.com');

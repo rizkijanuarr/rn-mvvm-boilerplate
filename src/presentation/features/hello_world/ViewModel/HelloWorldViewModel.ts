@@ -1,5 +1,6 @@
 import { React, useState, useCallback, useFocusEffect, UiState } from '../../../../core';
-import { helloWorldRepository, type HelloWorldResponse } from '..';
+import { helloWorldRepository } from '../Repository/HelloWorldRepository';
+import { type HelloWorldResponse } from '../Response/HelloWorldResponse';
 
 
 

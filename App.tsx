@@ -5,7 +5,8 @@ import { SafeAreaProvider, SafeAreaView, NavigationContainer } from './src/core/
 
 function App() {
   useEffect(() => {
-    BootSplash.hide({ fade: true });
+    // Hide splash immediately
+    BootSplash.hide();
   }, []);
 
   return (

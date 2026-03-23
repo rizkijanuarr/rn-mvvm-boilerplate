@@ -1,4 +1,4 @@
-import { ErrorMessage } from "..";
+import { ErrorMessage } from "../common/Constant";
 
 let getToken: (() => string) | null = null;
 
